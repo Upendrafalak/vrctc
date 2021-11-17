@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>VRCTC</title>
+</head>
+
+    <body background="RMS.jpg">
+        <nav class="navibar">
+          <ul class="nav-list ">
+            <div class="Logo"><img src="vrctc2.jpeg" alt="Logo" height="125"></div>
+            <li><a href ="pnrstatus.html" style="text-decoration: none;
+              color: darkmagenta;
+              background-color: chartreuse;
+              font-size: x-large;">PNR Status</a></li>
+            <li><a href ="" style="text-decoration: none;
+              color: darkmagenta;
+              background-color: chartreuse;
+              font-size: x-large;">Train Charts</a></li>  
+           
+          </ul>
+        </nav>
+<center>
+  <h1>BOOK TICKET</h1><br>
+</center>
+        <form>
+          <div class="booking" align="center" style="margin: auto;
+          text-align: center;
+          color:darkblue;
+          font-size:x-large;
+          background-color: yellowgreen;
+          width: 300px;
+           border: 15px solid orange;
+          padding: 100px;">
+          <div class="from_logo">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqj0oIsYj5hkSlOTyelT2boxy-rbfZOLR9ops-m1hCxWY3_jhceDg7ISYNG8DEuKGjors&usqp=CAU" alt="from_logo" height="25" area style="float: left; border-radius: 25%;">
+          
+          </div>
+            <label>From </label>
+              <input list="Stations" placeholder="Select from below"required><br> <br>
+              <datalist id="Stations">
+                <option value="Bandra Terminus BDT"></option>
+                <option value="Agra "></option>
+                <option value="Chennai"></option>
+                <option value="Kalyan Junction"></option>
+                <option value="Dadar Junction"></option>
+                <option value="Thane"></option>
+                <option value="Gorakhpur"></option>
+                <option value="Ahemdabad"></option>
+                <option value="Jodhpur"></option>
+                <option value="Sikkim"></option>
+              </datalist>
+              <div class="to_logo">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhyQD4g7TGzkXUXMivfuMWt0nzXuouX2_kGg&usqp=CAU" alt="to_logo" height="25" style="float: left ; border-radius: 25%;"
+              </div>
+              <label >To </label>
+              <input list="Stations" placeholder="Select from below" required><br> <br>
+              <datalist id="Stations">
+                <option value="Bandra Terminus BDT"></option>
+                <option value="Agra "></option>
+                <option value="Chennai"></option>
+                <option value="Kalyan Junction"></option>
+                <option value="Dadar Junction"></option>
+                <option value="Thane"></option>
+                <option value="Gorakhpur"></option>
+                <option value="Ahemdabad"></option>
+                <option value="Jodhpur"></option>
+                <option value="Sikkim"></option>
+              </datalist>
+              <div class="calender">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYz-IJLf0vTfYhd3muLaNmOJws4jVRl98q_w&usqp=CAU"
+                alt="calender" height="25" style="float: left; border-radius: 25%;">
+              </div>
+              <label>Date</label>
+              <input type="date" placeholder="Select date" required><br><br>
+              <div class="class">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCvQjbbI8qzr3KOQIECG1qlPDWV2yh55bcLuKsHSQFTWfUBZctvuscq8rhH9U_elYGPKo&usqp=CAU" alt="class" height="25" style="float: left; border-radius: 25%;">
+              </div>
+              <label>Class</label>
+              <input list="Classes" placeholder="Choose class" required><br><br>
+              <datalist id="Classes">
+                <option value="Exec. Chair Class (EC)"></option>
+                <option value="AC II Tier"></option>
+                <option value="First Class (FC)"></option>
+                <option value="AC III Tier"></option>
+                <option value="AC Chair Car (CC)"></option>
+                <option value="AC 3 Economy (3A)"></option>
+                <option value="Sleeper (SL)"></option>
+                <option value="Second Sitting (2S)"></option>
+              </datalist>
+                <div class="general">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE7t0DZiWHUKsFvTXH3YfQ2cqa_okVXMlCUlP0d5mu4oTUNPKT50LKUqZk3Q-mQ6y_LCg&usqp=CAU" alt="general"
+                  height="25" style="float: left; border-radius: 25%;">
+                </div>
+              <label>General</label>
+              <input list="General" placeholder="General"required><br><br>
+              <datalist id="General">
+                <option value="General"></option>
+                <option value="Ladies"></option>
+                <option value="Lower Berth/Sr.Citizen"></option>
+                <option value="Divyaang"></option>
+                <option value="Tatkaal"></option>
+                <option value="Prem.Tatkaal"></option>
+                
+              </datalist>
+
+
+              <button type="submit" class="btn btn-lg" >Search</button><br>
+              <script src="main.js"></script>
+</body>
+</html>
